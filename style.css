@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(34, 32, 32);
+}
+
+
+.container{
+    width:160px;
+    display:flex;
+    flex-wrap:wrap;
+    border-style: solid;
+    border-color: gray;
+    border-width: 10px;
+}
+.box{
+    background-color: white;
+}
