@@ -1,36 +1,32 @@
 function game(){
-
 let side = 16
 
 for(i=0;i<side;i++){
-box=document.createElement("div");
-const container=document.querySelector(".container");
-box.style.backgroundColor="white"
-container.appendChild(box);
-box.classList.add("box")
-box.setAttribute("id","box")
+    box=document.createElement("div");
+    const container=document.querySelector(".container");
+    box.style.backgroundColor="white"
+    container.appendChild(box);
+    box.classList.add("box")
+    box.setAttribute("id","box")
 
-for(a=0;a<side;a++){
-    const columBox=document.createElement("div");
-    columBox.classList.add("columBox");
-    box.appendChild(columBox);
-    columBox.style.backgroundColor="white"
+        for(a=0;a<side;a++){
+            const columBox=document.createElement("div");
+            columBox.classList.add("columBox");
+            box.appendChild(columBox);
+            columBox.style.backgroundColor="white"
 
 
-    const reset=document.querySelector(".reset")
-    reset.addEventListener("click",restart)
-    function restart(){
-        columBox.style.backgroundColor="white"
-    } 
-}
+            const reset=document.querySelector(".reset")
+            reset.addEventListener("click",restart)
+            function restart(){
+                columBox.style.backgroundColor="white"
+            }}
 
-var box=document.querySelectorAll(".box")
-box.forEach(box => box.addEventListener("mouseover",color))
-function color(e){
-   e.target.style.backgroundColor="black";
-}
-
-}}
+            var box=document.querySelectorAll(".box")
+            box.forEach(box => box.addEventListener("mouseover",color))
+            function color(e){
+            e.target.style.backgroundColor="black";
+}}}
 
 
 
@@ -69,16 +65,12 @@ size.addEventListener("click", selectSize);
             reset.addEventListener("click",restart)
             function restart(){
             columBox.style.backgroundColor="white"
-            } 
-        }
-        var box=document.querySelectorAll(".box")
-        box.forEach(box => box.addEventListener("mouseover",color))
-        function color(e){
-        e.target.style.backgroundColor="black";
-        }
-    }
-
-    }
+            }}
+            var box=document.querySelectorAll(".box")
+            box.forEach(box => box.addEventListener("mouseover",color))
+            function color(e){
+            e.target.style.backgroundColor="black";
+}}}
 
 
 
