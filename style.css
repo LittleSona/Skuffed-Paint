@@ -1,7 +1,5 @@
 body{
     background-color: rgb(34, 32, 32);
-    display:flex;
-    justify-content: center;
 }
 
 .outSideBorder{
@@ -42,7 +40,8 @@ body{
 }
 
 .theBox{
-    display:flex
+    display:flex;
+    justify-content: center;
 }
 
 button{
@@ -61,4 +60,12 @@ button:hover{
     background-color: white;
     color:gray;
     transition: 0.3s;
+}
+
+.Logo{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 55px;
 }
